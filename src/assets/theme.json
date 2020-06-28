@@ -1,0 +1,100 @@
+[
+    {
+        "id": "mango",
+        "name": "Mango King",
+        "colors":{
+            "primary": "#ffd803",
+            "secondary": "#e3f6f5",
+            "tertiary": "#bae8e8",
+            "headline":"#272343",
+            "button-text": "#272343",
+            "paragraph-text":"#2d334a",
+            "background": "#fffffe"
+        }
+    },
+
+    {
+        "id": "orange",
+        "name": "Orange ore",
+        "colors":{
+            "primary": "#ff8906",
+            "secondary": "#f25f4c",
+            "tertiary": "#e53170",
+            "headline":"#fffffe",
+            "button-text": "#fffffe",
+            "paragraph-text":"#a7a9be",
+            "background": "#0f0e17"
+        }
+    },
+
+    {
+        "id": "cherry",
+        "name": "Cherry blue",
+        "colors":{
+            "primary": "#00ebc7",
+            "secondary": "#ff5470",
+            "tertiary": "#fde24f",
+            "headline":"#00214d",
+            "button-text": "#00214d",
+            "paragraph-text":"#1b2d45",
+            "background": "#fffffe"
+        }
+    },
+
+    {
+        "id": "apple",
+        "name": "Apple green",
+        "colors":{
+            "primary": "#f9bc60",
+            "secondary": "#abd1c6",
+            "tertiary": "#e16162",
+            "headline":"#fffffe",
+            "button-text": "#001e1d",
+            "paragraph-text":"#abd1c6",
+            "background": "#004643"
+        }
+    },
+
+    {
+        "id": "pear",
+        "name": "Pear pink",
+        "colors":{
+            "primary": "#0e172c",
+            "secondary": "#d9d4e7",
+            "tertiary": "#a786df",
+            "headline":"#0e172c",
+            "button-text": "#fffffe",
+            "paragraph-text":"#0e172c",
+            "background": "#fec7d7"
+        }
+    },
+
+    {
+        "id": "falsa",
+        "name" : "Falsa light",
+        "colors": {
+            "primary": "#6246ea",
+            "secondary": "#d1d1e9",
+            "tertiary": "#e45858",
+            "headline": "#2b2c34",
+            "button-text": "#fffffe",
+            "paragraph-text": "#2b2c34",
+            "background": "#fffffe"
+        }
+    },
+
+    {
+        "id": "grape",
+        "name" : "Grape Dark",
+        "colors": {
+            "primary": "#7f5af0",
+            "secondary": "#72757e",
+            "tertiary": "#2cb67d",
+            "headline": "#fffffe",
+            "button-text": "#fffffe",
+            "paragraph-text": "#94a1b2",
+            "background": "#16161a"
+        }
+    }
+
+]
