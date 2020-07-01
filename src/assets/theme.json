@@ -7,8 +7,8 @@
             "secondary": "#e3f6f5",
             "tertiary": "#bae8e8",
             "headline":"#272343",
-            "button-text": "#272343",
-            "paragraph-text":"#2d334a",
+            "buttonText": "#272343",
+            "paragraphText":"#2d334a",
             "background": "#fffffe"
         }
     },
@@ -21,8 +21,8 @@
             "secondary": "#f25f4c",
             "tertiary": "#e53170",
             "headline":"#fffffe",
-            "button-text": "#fffffe",
-            "paragraph-text":"#a7a9be",
+            "buttonText": "#fffffe",
+            "paragraphText":"#a7a9be",
             "background": "#0f0e17"
         }
     },
@@ -35,8 +35,8 @@
             "secondary": "#ff5470",
             "tertiary": "#fde24f",
             "headline":"#00214d",
-            "button-text": "#00214d",
-            "paragraph-text":"#1b2d45",
+            "buttonText": "#00214d",
+            "paragraphText":"#1b2d45",
             "background": "#fffffe"
         }
     },
@@ -49,23 +49,9 @@
             "secondary": "#abd1c6",
             "tertiary": "#e16162",
             "headline":"#fffffe",
-            "button-text": "#001e1d",
-            "paragraph-text":"#abd1c6",
+            "buttonText": "#001e1d",
+            "paragraphText":"#abd1c6",
             "background": "#004643"
-        }
-    },
-
-    {
-        "id": "pear",
-        "name": "Pear pink",
-        "colors":{
-            "primary": "#0e172c",
-            "secondary": "#d9d4e7",
-            "tertiary": "#a786df",
-            "headline":"#0e172c",
-            "button-text": "#fffffe",
-            "paragraph-text":"#0e172c",
-            "background": "#fec7d7"
         }
     },
 
@@ -77,8 +63,8 @@
             "secondary": "#d1d1e9",
             "tertiary": "#e45858",
             "headline": "#2b2c34",
-            "button-text": "#fffffe",
-            "paragraph-text": "#2b2c34",
+            "buttonText": "#fffffe",
+            "paragraphText": "#2b2c34",
             "background": "#fffffe"
         }
     },
@@ -91,8 +77,8 @@
             "secondary": "#72757e",
             "tertiary": "#2cb67d",
             "headline": "#fffffe",
-            "button-text": "#fffffe",
-            "paragraph-text": "#94a1b2",
+            "buttonText": "#fffffe",
+            "paragraphText": "#94a1b2",
             "background": "#16161a"
         }
     }
