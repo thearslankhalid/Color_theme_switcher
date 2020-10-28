@@ -46,6 +46,50 @@
     
 </template>
 
+<script>
+export default {
+    name: 'ThemeSwitcher',
+    data(){
+        return{
+            title: 'Color theme switcher',
+            showThemeSwitcher: false,
+        }
+    },
+    props: {
+        themes: Array
+    },
+    mounted() {
+        document.querySelector('.theme').classList.add('active');
+    },
+    methods:{
+        changeTheme: async function(e){
+            
+           const selectedTheme = e.target.closest('button')
+
+           const newTheme = this.themes[parseInt(selectedTheme.getAttribute("data-index"))].colors
+
+           document.querySelectorAll('.active').forEach(themeSelector => themeSelector.classList.remove('active'))
+
+           selectedTheme.classList.add('active')
+
+           let root = document.documentElement
+
+            // Looping through the colors object and setting the styles in the root
+           const entries = Object.entries(newTheme)
+           for(let i = 0; i < entries.length; i++){
+               for(let j = 1; j < entries[i].length; j++){
+                   root.style.setProperty(`--${entries[i][0]}`, `${entries[i][1]}`)   
+               }
+           }
+           
+        },
+        showThemeSelector(){
+            this.showThemeSwitcher = !this.showThemeSwitcher
+        }
+    }
+}
+</script>
+
 <style scoped>
     .fade-enter-active, .fade-leave-active {
         transition: opacity .3s;
@@ -118,47 +162,3 @@
         height: 1.25rem;
     }
 </style>
-
-<script>
-export default {
-    name: 'ThemeSwitcher',
-    data(){
-        return{
-            title: 'Colour theme switcher',
-            showThemeSwitcher: false,
-        }
-    },
-    props: {
-        themes: Array
-    },
-    mounted() {
-        document.querySelector('.theme').classList.add('active');
-    },
-    methods:{
-        changeTheme: async function(e){
-            
-           const selectedTheme = e.target.closest('button')
-
-           const newTheme = this.themes[parseInt(selectedTheme.getAttribute("data-index"))].colors
-
-           document.querySelectorAll('.active').forEach(themeSelector => themeSelector.classList.remove('active'))
-
-           selectedTheme.classList.add('active')
-
-           let root = document.documentElement
-
-            // Looping through the colors object and setting the styles in the root
-           const entries = Object.entries(newTheme)
-           for(let i = 0; i < entries.length; i++){
-               for(let j = 1; j < entries[i].length; j++){
-                   root.style.setProperty(`--${entries[i][0]}`, `${entries[i][1]}`)   
-               }
-           }
-           
-        },
-        showThemeSelector(){
-            this.showThemeSwitcher = !this.showThemeSwitcher
-        }
-    }
-}
-</script>
